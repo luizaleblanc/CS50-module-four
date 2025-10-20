@@ -1,8 +1,7 @@
-<title>CS50 Problem Set 4: Memory</title>
 </head>
 <body>
 
-  <h1>CS50 Problem Set 4: Memory</h1>
+  <h1>CS50 4th Module</h1>
     <p>This repository contains the solutions for the labs and problem sets of Module 4 from Harvard's CS50 course. The module focuses on memory management in C, including pointers, file I/O, and manipulating data at the byte level to handle common file formats like WAV audio and BMP images.</p>
 
   <hr>
@@ -16,7 +15,7 @@
     </p>
     <hr>
 
-  <h2>Project 1: Lab - Volume</h2>
+  <h2>Project 1: Volume</h2>
     <h3>Description</h3>
     <p>
         <code>volume</code> is a C program that modifies the volume of a WAV audio file. It takes an input file, an output file, and a floating-point factor as command-line arguments. The program scales the volume of the audio by multiplying each sample by the given factor.
@@ -31,7 +30,7 @@
         <li>This process continues until all samples from the input file have been processed.</li>
     </ol>
 
-  <h2>Project 2: Problem Set - Filter</h2>
+  <h2>Project 2: Filter </h2>
     <h3>Description</h3>
     <p>
         <code>filter</code> is a program that applies various image filters to 24-bit BMP (Bitmap) files. The user can specify a filter via a command-line flag, along with an input image and an output file name. The program reads the BMP, applies the chosen filter to its pixels, and saves the result as a new BMP file.
@@ -52,7 +51,7 @@
         </li>
     </ul>
 
-  <h2>Project 3: Problem Set - Recover</h2>
+  <h2>Problem 3: Recover</h2>
     <h3>Description</h3>
     <p>
         <code>recover</code> is a C program that functions as a digital forensics tool. It recovers JPEG images from a raw memory card image file (<code>card.raw</code>). The program scans the file for the unique byte pattern that signifies the start of a JPEG file.
